@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vino a vinos</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="div1">
+                <div>
+                    <i class="fa fa-envelope"></i>
+                    <small>contacto@vinoavinos.com</small>
+                </div>
+                <div>
+                    <i class="fa fa-phone-alt"></i>
+                    <small>55 5555 5555</small>
+                </div>
+            </div>
+            <div class="div2">
+                <div class="title">
+                    <h1>Vino a vinos</h1>
+                </div>
+                <div class="nav-icons">
+                    <div class="dropdown">
+                        <span>USD</span>
+                        <span class="arrow">&#9660;</span>
+                        <ul class="dropdown-content">
+                            <li><a href="#">MEX</a></li>
+                            <li><a href="#">COL</a></li>
+                            <li><a href="#">USD</a></li>
+                        </ul>
+                    </div>
+                    <div id="carrito">
+                        <button id="btnCarrito"><i class="fa-solid fa-cart-shopping"></i></button>
+                        <div id="overlay" class="overlay">
+                            <div id="overlay-content">
+                                <div id="carrito-contenido"></div>
+                                <div class="cart-total">
+                                    <span class="total-pagar"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="buscador-vinos">
+            <input type="text" id="inputBusqueda" placeholder="Ingrese nombre de vino">
+        </div>
+
+        <div id="contenedor-productos"></div>
+
+    </main>
+
+
+
+    <footer>
+        <p>Copy; 2024 Vino a Vinos Online. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="productos.js"></script>
+    <script src="main.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://kit.fontawesome.com/63290d998f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
