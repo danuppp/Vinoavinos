@@ -131,6 +131,3 @@ const productos = [
   
 const storedProductos = JSON.parse(localStorage.getItem("productos"));
 
-if (!storedProductos) {
-  localStorage.setItem("productos", JSON.stringify(productos));
-}
